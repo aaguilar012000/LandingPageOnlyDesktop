@@ -1,0 +1,31 @@
+
+body {
+	margin:0;
+  font-family: inter, sans-serif;
+  font-size: clamp(11px, 100vw, 16px);
+  background-color: transparent;
+  background-color: #F7F9FC;
+  padding-bottom: 2rem;
+}
+
+*::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.4rem;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 0.25rem;
+}
+
+*:hover::-webkit-scrollbar-thumb {
+  background: rgba(100, 100, 100, 0.5);
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: rgba(100, 100, 100, 0.75);
+}
